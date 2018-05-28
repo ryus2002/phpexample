@@ -1,0 +1,26 @@
+{
+    "name": "user/pdo",
+    "authors": [
+        {
+            "name": "ryus2002",
+            "email": "ryus2002@gmail.com"
+        }
+    ],
+    "require": {
+    	"monolog/monolog": "^1.23",
+        "wixel/gump": "^1.5",
+        "plasticbrain/php-flash-messages": "^1.0",
+        "fightbulc/moment": "^1.26",
+        "facebook/graph-sdk": "^5.6"
+    },
+    "autoload": {
+    	"classmap":[
+    		"libraries",
+    		"config",
+            "validators"
+    	],
+        "files": [
+            "src/array_column.php"
+        ]
+    }
+}
